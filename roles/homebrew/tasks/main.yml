@@ -41,7 +41,6 @@
       - pkg-config
       - reattach-to-user-namespace
       - pyenv
-      - tmux
       
 - name: Install pip packages
   pip: name={{ item }}
