@@ -34,7 +34,15 @@
       - peco
       - ghq
       - gnu-sed
-
+      - readline
+      - autoconf
+      - zlib
+      - libevent
+      - pkg-config
+      - reattach-to-user-namespace
+      - pyenv
+      - tmux
+      
 - name: Install pip packages
   pip: name={{ item }}
   with_items:
