@@ -1,25 +1,3 @@
 [user]
-	name = RVIRUS0817
-	email = t.virus.1989@gmail.com
-
-[color]
-	ui = auto
-
-[alias]
-    g  = git
-    st = status
-    ss = status -s
-    sh = show
-    ch = checkout
-    br = branch
-    co = commit
-    pu = push
-
-[ghq]
-  root = ~/git/RVIRUS0817
-  root = ~/git/RVIRUS0817-bitbucket
-  root = ~/git/lancers
-
-[commit]
-  template = ~/.commit_template
-
+	name = Sato Ritsuki
+	email = sato.ritsuki@lancers.co.jp
