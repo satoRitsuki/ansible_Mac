@@ -9,7 +9,7 @@
   - { src: roles/homedirectory/files/.tmux.conf, dest: ~/ }
   - { src: roles/homedirectory/files/.vimrc, dest: ~/ }
 
--name: git_clone_bash_it
+- name: git_clone_bash_it
     git:
       repo: "git@github.com:Bash-it/bash-it.git"
       dest: "~/"
