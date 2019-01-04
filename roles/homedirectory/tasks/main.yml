@@ -7,7 +7,8 @@
   - { src: roles/homedirectory/files/.bash_profile, dest: ~/ }
   - { src: roles/homedirectory/files/.gitconfig, dest: ~/ }
   - { src: roles/homedirectory/files/.tmux.conf, dest: ~/ }
-
+  - { src: roles/homedirectory/files/.zshenv, dest: ~/ }
+  - { src: roles/homedirectory/files/.zshrc, dest: ~/ }
 - name: git_clone_bash_it
   git:
     repo: "git@github.com:Bash-it/bash-it.git"
