@@ -12,5 +12,5 @@
 - name: git_clone_bash_it
   git:
     repo: "git@github.com:Bash-it/bash-it.git"
-    dest: "~/bash-it"
+    dest: "~/.bash-it"
  
