@@ -41,8 +41,3 @@
       - pkg-config
       - reattach-to-user-namespace
       - pyenv
-      
-- name: Install pip packages
-  pip: name={{ item }}
-  with_items:
-      - powerline-status
