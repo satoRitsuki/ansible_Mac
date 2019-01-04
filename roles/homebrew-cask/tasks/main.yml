@@ -7,7 +7,6 @@
   install_options: 'appdir=/Applications'
   with_items:
     - firefox
-    - google-chrome
     - google-japanese-ime
     - bitbar
     - karabiner
@@ -16,7 +15,6 @@
     - chatwork
     - evernote
     - iterm2
-    - virtualbox
     - skitch
     - alfred
     - near-lock
@@ -31,5 +29,4 @@
     - macvim
     - jasper
     - boostnote
-    - sequel pro
     - line
